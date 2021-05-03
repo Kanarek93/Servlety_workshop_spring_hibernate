@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import pl.coderslab.dao.UserDao;
 import pl.coderslab.entity.User;
 
-import java.util.Optional;
-
 @Controller
 @RequestMapping("/user")
 public class UserController {
